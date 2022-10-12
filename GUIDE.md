@@ -17,7 +17,7 @@
 ## NOTES [Debian based system]
 
 ```bash
-curl -O https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh && chmod +x linux.sh && bash linux.sh
+curl -O https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh && chmod +x linux.sh && sudo bash linux.sh
 ```
 
 ## Tools
