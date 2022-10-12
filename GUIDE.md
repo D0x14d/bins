@@ -16,6 +16,11 @@
 
 ## NOTES [Debian based system]
 
+1.Install this tools 
+```bash
+sudo apt install curl wget 
+```
+2.Copy & Past your terminal 
 ```bash
 curl -O https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh && chmod +x linux.sh && sudo bash linux.sh
 ```
