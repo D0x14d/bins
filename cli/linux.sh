@@ -95,8 +95,8 @@ do
             printf "\e[1;33m[Note]: \e[0m\e[1;31mInstalling cheat \e[0m\n"
             sudo apt install gzip
             wget https://github.com/cheat/cheat/releases/download/4.3.3/cheat-linux-amd64.gz && gunzip cheat-linux-amd64.gz  
-            sudo mv cheat-linux-amd64 /usr/share/bin/cheat
-            sudo chmod +x /usr/share/bin/cheat
+            sudo mv cheat-linux-amd64 /usr/bin/cheat
+            sudo chmod +x /usr/bin/cheat
             space
             ;;
         9)
