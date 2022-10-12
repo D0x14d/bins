@@ -10,7 +10,15 @@
 
 - Download the binary file from the system and put it in the path. 
 - Or you can use the cargo to install the tools.
-- Automaticaly install the tools using the [install.sh]() script.
+- Automaticaly install the tools using the [linux.sh](https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh) script.
+
+- Install All tools using the below script.
+
+## NOTES [Debian based system]
+
+```bash
+curl -O https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh && chmod +x linux.sh && bash linux.sh
+```
 
 ## Tools
 
@@ -23,11 +31,8 @@
 - [x] [tldr](https://tldr.sh/ ) - man pages simplified.
 - [x] [zoxide](https://github.com/ajeetdsouza/zoxide ) - A cd command that learns - easily navigate directories from the command-line.
 
-## NOTES [Debian based system]
 
-- Install All tools using the below script.
 
-```bash
 
 
 
