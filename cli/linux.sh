@@ -1,16 +1,6 @@
 #!/usr/bin/bash 
 set -e
 
-#script requires sudo permissions
-if [ $EUID != 0 ]; then
-    echo "Please run as root"
-    printf "\e[1;31mPlease install sudo curl git wget \e[0m"
-    exit 1
-
-  else
-    echo -e "\e[1;31mRunning as root\1[0m\n"
-fi
-
 #installing dependencies
 if ! command -v  curl git wget &> /dev/null
 then
