@@ -1,6 +1,9 @@
 #!/usr/bin/bash 
 set -e
 
+#guide for features 
+firefox https://github.com/aunknownwhoami/tools/blob/master/GUIDE.md
+
 #installing dependencies
 if ! command -v  curl git wget &> /dev/null
 then
@@ -99,7 +102,7 @@ do
             printf "\e[1;33m[Note]: \e[0m\e[1;31mInstalling zoxide \e[0m\n"
             wget https://github.com/ajeetdsouza/zoxide/releases/download/v0.8.3/zoxide_0.8.3_amd64.deb && sudo dpkg -i zoxide_0.8.3_amd64.deb
             rm -rf zoxide_0.8.3_amd64.deb
-            echo '\e[1;33m[Note]: \e[0m\e[1;32mAdd this line to your .bashrc or .zshrc file [eval $(zoxide init (bash/zsh))] \e[0m\n'
+            printf '\e[1;33m[Note]: \e[0m\e[1;32mAdd this line to your .bashrc or .zshrc file [eval $(zoxide init (bash/zsh))] \e[0m\n'
             echo 'eval "$(zoxide init bash)"' >> ~/.bashrc && echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
             source ~/.bashrc || source ~/.zshrc
             space
