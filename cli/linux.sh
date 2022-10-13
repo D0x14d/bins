@@ -1,9 +1,6 @@
 #!/usr/bin/bash 
 set -e
 
-#guide for features 
-firefox https://github.com/aunknownwhoami/tools/blob/master/GUIDE.md
-
 #installing dependencies
 if ! command -v  curl git wget &> /dev/null
 then
