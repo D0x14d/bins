@@ -1,5 +1,3 @@
-!<--Tools install guide -->
-
 # NOTES
 
 ## why?
@@ -26,7 +24,7 @@ sudo apt install curl wget
 2.Copy & Past your terminal
 
 ```bash
-curl -o- https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh | bash
+curl -O https://raw.githubusercontent.com/aunknownwhoami/tools/master/cli/linux.sh && bash linux.sh
 ```
 
 ## Tools
