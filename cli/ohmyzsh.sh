@@ -10,6 +10,6 @@ git clone https://github.com/wintermi/zsh-lsd.git "${ZSH_CUSTOM:-~/.oh-my-zsh/cu
 
 echo -e "\033[1;31mAdding pluggins .zshrc \[0m" 
 
-sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-autocomplete  zsh-syntax-highlighting zsh-lsd )/g'" $HOME/.zshrc"
+sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-autocomplete  zsh-syntax-highlighting zsh-lsd )/g' $HOME/.zshrc
 
 
