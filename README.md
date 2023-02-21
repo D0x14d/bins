@@ -1,5 +1,8 @@
 # NOTES
 
+# ohmyzsh plugins
+`curl -fsSL https://raw.githubusercontent.com/a0x14D/tools/master/cli/ohmyzsh.sh | bash`
+
 ## why?
 
 - The mostly used tools based on the [Rust](https://www.rust-lang.org/) programming language.
