@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+w3m -dump https://command-not-found.com/"$*" 
+
