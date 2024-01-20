@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-w3m -dump https://command-not-found.com/"$*" 
+w3m -dump https://command-not-found.com/"$*" | awk '/^Install/','/try this command on-line!/'
 
