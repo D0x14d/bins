@@ -4,6 +4,7 @@ import json
 import sys
 
 text = sys.argv[1]
+filename = sys.argv[2]
 url = 'https://api.elevenlabs.io/v1/text-to-speech/pNInz6obpgDQGcFmaJgB?'
 headers = {
     'User-Agent': 'Mozilla/5.0 (X1; Linux x86_64; rv:12.0) Gecko/2010101 Firefox/12.0',
@@ -25,5 +26,5 @@ data = {
     "model_id": "eleven_multilingual_v2"
 }
 response = requests.post(url, headers=headers, data=json.dumps(data))
-with open('test.mp3', 'wb') as f:
+with open(filename , 'wb') as f:
     f.write(response.content)
