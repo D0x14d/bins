@@ -107,4 +107,11 @@ function list {
 
 banner
 list
-install $@
+while true 
+do
+  install $@
+  sleep 3
+  clear
+  banner
+  list
+done
