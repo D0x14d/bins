@@ -41,6 +41,7 @@ function install {
     elif [[ "$num" == "3" ]]; then
       cp ./bin/brightnessControl ~/.local/bin/
     elif [[ "$num" == "4" ]]; then
+      command -v w3m || echo "install w3m using your favorite package manager [apt, pacman, dnf, zypper]"
       cp ./bin/cnf ~/.local/bin/
     elif [[ "$num" == "5" ]]; then
       cp ./bin/i3exit ~/.local/bin/
@@ -61,7 +62,15 @@ function install {
     elif [[ "$num" == "13" ]]; then
       cp ./bin/volumeControl ~/.local/bin/
     elif [[ "$num" == "14" ]]; then
+      command -v zsh || echo "if you install cnf script  try cnf zsh  or install using package manager"
       cp ./bin/zap_zsh ~/.local/bin/
+      echo -e "$YELLOW
+      after installing zsh try this commands on your shell 
+      chsh -s $(which zsh)
+      mv ~/.zshrc ~/.zshrc.bak
+      zap_zsh
+      $NC
+      "
     elif [[ "$num" == "15" ]]; then
       cp ./bin/tgpt ~/.local/bin/
     else
